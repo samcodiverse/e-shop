@@ -14,6 +14,6 @@ def clientes():
     return render_template('admin/clientes.html')
 
 @admin_bp.route('/admin/pedidos')
-def registro():
+def pedidos():
     return render_template('admin/pedidos.html')
 
